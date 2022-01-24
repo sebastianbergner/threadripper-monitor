@@ -1,6 +1,8 @@
 # Ryzen Power and CPU Usage Monitor
 
-Most system monitors on Linux have a hard time with 32 cores and 64 threads. This program, made especially for AMD Threadripper processors but also compatible with Desktop Ryzen and EPYC, displays the CPU use of all the cores (and threads), in a nice graphical format that matches the physical implementation of the cores (on EPYC, Threadripper and Ryzen processors with 4, 2 or 1 Zeppelin dies).
+Most system monitors on Linux have a hard time with 32 cores and 64 threads. This program, made especially for AMD Threadripper processors but also compatible with Desktop Ryzen, EPYC and Mobile Ryzen, displays the CPU use of all the cores (and threads), in a nice graphical format that matches the physical implementation of the cores (on EPYC, Threadripper and Ryzen processors with 4, 2 or 1 Zeppelin dies).
+
+`I'm not entirely sure if the Mobile Ryzen addition works entirely (as I could only test 4800H). Testing and providing information is appreciated ;)`
 
 ## Dependencies
 
